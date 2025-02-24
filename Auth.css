@@ -1,0 +1,95 @@
+.auth-container {
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 40px;
+    background-color: #4b2f33;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #e1d8c8;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .auth-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-switch button {
+    background-color: #6a4146;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .auth-switch button.active {
+    background-color: #e1d8c8;
+    color: #4b2f33;
+  }
+  
+  .auth-switch button:not(.active):hover {
+    background-color: #5c3c41;
+  }
+  
+  .auth-form label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #6a4146;
+    border-radius: 5px;
+    background-color: #3b2a2e;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .photo-upload input {
+    margin-top: 10px;
+  }
+  
+  .profile-preview {
+    display: block;
+    margin: 10px auto;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    border: 2px solid #e1d8c8;
+  }
+  
+  .auth-button {
+    background-color: #6a4146;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #5c3c41;
+  }
+  
+  .error-message {
+    color: #ff6b6b;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
